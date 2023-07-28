@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* html{
+    font-size: 20px;
+}  */
+
+body{
+    background-image: url("./watercolor.webp");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quote-box{
+    background-color:antiquewhite;
+    width: 600px;
+    padding: 40px;
+    text-align: center;
+    font-size: 10px;   
+}
+
+.quotation-mark{
+    font-size: 3em;    
+}
+
+blockquote{
+    font-size: 2em;
+}
+button{
+     padding: 10px;
+    align-items: center;
+    border: 5px;
+    background-color: red;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 15px;
+}
